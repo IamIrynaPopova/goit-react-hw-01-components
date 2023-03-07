@@ -8,13 +8,13 @@ export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
         display: 'flex',
         justifyContent: 'center',
+        flexDirection: 'column',
         alignItems: 'center',
         fontSize: 40,
         color: '#010101',
-        backgroundColor: '#c2c1c1'
+        backgroundColor: '#c2c1c1',
       }}
     >
       <p> Tast 1</p>
@@ -27,9 +27,8 @@ export const App = () => {
           stats={user.stats}
         />
       }
-      
+   <p> Tast 2</p>
       {<Statistics title="Upload stats" stats={data} />}
-     
     </div>
   );
 };

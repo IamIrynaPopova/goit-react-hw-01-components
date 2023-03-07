@@ -1,7 +1,8 @@
 .profile {
   max-width: 600px;
   border-radius: 20px;
-  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 
   background-color: white;
   border: black solid 1px;
@@ -58,21 +59,21 @@
   font-weight: 600;
 }
 
-li:nth-child(n) {
+.stats > li:nth-child(n) {
   border-radius: 0 0 0 20px;
 }
 
-li:nth-child(2n) {
+.stats > li:nth-child(2n) {
   border-radius: 0;
 }
 
-li:nth-child(3n) {
+.stats > li:nth-child(3n) {
   border-radius: 0 0 20px 0;
 }
 
 .label {
   margin-bottom: 5px;
-  
+
   color: rgba(117, 112, 112, 0.714);
 
   font-weight: 600;
