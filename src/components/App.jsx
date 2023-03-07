@@ -1,8 +1,10 @@
 import React from 'react';
 import { UserProfile } from './UserProfile/User';
-import { Statistics } from './Statistics/Statistics';
 import user from './UserProfile/user.json';
+import { Statistics } from './Statistics/Statistics';
 import data from './Statistics/data.json';
+import { FriendList } from './FriendList/FriendList';
+import friends from './FriendList/friends.json';
 
 export const App = () => {
   return (
@@ -27,8 +29,10 @@ export const App = () => {
           stats={user.stats}
         />
       }
-   <p> Tast 2</p>
+      <p> Tast 2</p>
       {<Statistics title="Upload stats" stats={data} />}
+      <p> Tast 3</p>
+      {<FriendList friends={friends} />}
     </div>
   );
 };
