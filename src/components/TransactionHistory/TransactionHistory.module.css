@@ -1,5 +1,29 @@
 .transactionHistory {
-background-color: white;
-font-size: 20px;
-font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 300px;
+  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.3);
+  border-collapse: collapse;
+
+  background-color: white;
+
+  font-size: 18px;
+  font-weight: 500;
+}
+
+thead {
+  color: white;
+  background-color: cadetblue;
+}
+
+th {
+  text-align: center;
+ 
+}
+tbody {
+  text-align: center;
+  border: 1px solid rgb(75, 74, 74);
+}
+tbody:nth-child(2n) {
+  background-color: rgb(199, 239, 239);
 }
