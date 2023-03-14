@@ -17,7 +17,7 @@ export const FriendList = ({ friends }) => {
   );
 };
 
-FriendListItem.prototype = {
+FriendListItem.PropTypes = {
   friends: PropTypes.arrayOf(
     PropTypes.exact({
       id: PropTypes.string.isRequired,

@@ -12,7 +12,7 @@ export const TransactionHistoryItem = ({ type, amount, currency }) => {
   );
 };
 
-TransactionHistoryItem.prototype = {
+TransactionHistoryItem.PropTypes = {
   type: PropTypes.string.isRequired,
   amount: PropTypes.string.isRequired,
   currency: PropTypes.string.isRequired,
