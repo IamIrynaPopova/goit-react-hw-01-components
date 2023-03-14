@@ -17,10 +17,10 @@ export const FriendList = ({ friends }) => {
   );
 };
 
-FriendListItem.PropTypes = {
+FriendList.propTypes = {
   friends: PropTypes.arrayOf(
-    PropTypes.exact({
-      id: PropTypes.string.isRequired,
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
     })
   ),
 };
